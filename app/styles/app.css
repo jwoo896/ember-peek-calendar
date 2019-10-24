@@ -9,3 +9,46 @@
   border: 1px solid lightgray;
   border-radius: .3em;
 }
+
+.time-slots-list-container {
+  max-width: 50%;
+  margin-right: 2em;
+}
+
+.time-slots-header {
+  text-align: center;
+}
+
+.time-slots-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.time-slots-list-item {
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.time-slots-list-item-block {
+  margin-left: 1em;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  border-radius: 0px;
+  border-top: 1px solid lightgrey;
+}
+
+.hour-text-wrapper {
+  text-align: right;
+  min-width: 70px;
+  max-width: 70px;
+}
+
+.hour-text-pos {
+  top: -9px;
+  left: 8px;
+  position: relative;
+}
