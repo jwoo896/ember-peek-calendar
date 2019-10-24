@@ -17,7 +17,7 @@
 }
 
 .time-slots-list-container {
-  max-width: 50%;
+  min-width: 50%;
   margin-right: 2em;
 }
 
@@ -57,4 +57,45 @@
   top: -9px;
   left: 8px;
   position: relative;
+}
+
+.activity-tile {
+  position: absolute;
+  border: 2px solid #f50057;
+  border-radius: .3em;
+  width: 43.5%;
+  background: white;
+  text-align: center;
+}
+
+
+.activity-details-container {
+  max-width: 50%;
+}
+
+.activity-details-div-wrapper {
+  border: 1px solid lightgray;
+}
+
+.activity-card {
+  min-width: 45vw;
+}
+
+.activity-card-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.activity-card-meta-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.activity-card-body {
+  font-size: 24px;
+}
+
+.space-bottom {
+  margin-bottom: 12px;
 }

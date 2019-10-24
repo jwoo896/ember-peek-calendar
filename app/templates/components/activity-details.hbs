@@ -1,0 +1,23 @@
+{{#sticky-element top=200}}
+    <div class="activity-details-div-wrapper">
+        <div class="activity-card">
+            <h5 class="activity-card-title">
+                {{activityDetails.activity_name}}
+            </h5>
+            <div class="activity-card-meta-data">
+                <span class="space-bottom">
+                    9am - 10pm
+                </span>
+                <span class="space-bottom">
+                    Maximum guests: {{activityDetails.max_guests}}
+                </span>
+            </div>
+            <div class="activity-card-body">
+                Available Spots: {{activityDetails.available_spots}}
+                <br />
+                Duration: {{activityDetails.minute_length}} min
+            </div>
+        </div>
+  </div>
+{{/sticky-element}}
+{{yield}}
