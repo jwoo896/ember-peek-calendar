@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('home', {path: '/'});
   this.route('home');
+  this.route('dayview');
 });
 
 export default Router;
