@@ -1,13 +1,19 @@
-.week-view-container{
+.week-view-container {
   display: flex;
   flex-direction: row;
 }
 
-.day-tile{
+.day-tile {
   display:flex;
   flex-direction: column;
   border: 1px solid lightgray;
   border-radius: .3em;
+}
+
+.day-view-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 .time-slots-list-container {
