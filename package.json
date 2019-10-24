@@ -38,6 +38,7 @@
     "ember-moment": "^8.0.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.14.0",
+    "ember-sticky-element": "^0.2.3",
     "ember-welcome-page": "^3.0.0",
     "loader.js": "^4.2.3"
   },
