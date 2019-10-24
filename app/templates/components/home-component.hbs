@@ -1,0 +1,12 @@
+<div>
+    <h2>June 2015</h2>
+</div>
+<div class="week-view-container">
+  {{#each weekdays as |day|}}
+    <div class="day-tile">
+        <div><h4>{{day.dayName}}</h4></div>
+        <div>{{day.dayNo}}</div>
+    </div>
+  {{/each}}
+</div>
+{{yield}}
