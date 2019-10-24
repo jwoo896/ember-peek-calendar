@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  showActivityDetails: false,
   day1data: {
     "timeslots":[
       {
