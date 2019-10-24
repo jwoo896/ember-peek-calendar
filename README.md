@@ -1,7 +1,22 @@
 # ember-peek-calendar
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Hello friends! Ember is really cool.. I believe Handlebars will take
+some getting used to but i like how straight forward and verbose it is.
+I found an ember addon called ember-composable-helpers which feels like
+a lodash for Handlebars. I was also exposed to the option of creating 
+my own helper functions, which is super exciting. With the basic
+knowledge of Ember I have so far, I've tried to replicate the calendar
+implementation I built in React. I hard coded data and also element 
+style definitions. I feel like there are some nuances with Ember/Handlebars
+that I'm going to need to learn in order to do cool things with my code.
+Super exciting! 
+
+So this bare bones Ember app has a router with a default route that points
+to 'home'. The home component is a row of links nested in divs that all
+point to the same 'dayview' route. The day-view component renders a list
+of time slots and has one 'activity tile' that has an onlick action that
+will toggle a component property. When toggled, a nested component
+(activity-details) will be rendered with hard coded data. 
 
 ## Prerequisites
 
