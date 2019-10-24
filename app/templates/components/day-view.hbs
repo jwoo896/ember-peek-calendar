@@ -255,7 +255,12 @@
         </div>
     </div>
     <div class="activity-details-container">
+      {{#if showActivityDetails}}
         {{activity-details}}
+      {{/if}}
     </div>
+</div>
+<div class="activity-tile first-tile" onclick={{action "toggleShowActivityDetails"}}>
+    Activity 1
 </div>
 {{yield}}
