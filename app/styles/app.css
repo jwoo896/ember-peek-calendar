@@ -25,7 +25,7 @@
   text-align: center;
 }
 
-.time-slots-list{
+#time-slots-list{
   display: flex;
   flex-direction: column;
 }
